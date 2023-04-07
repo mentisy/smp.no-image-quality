@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "smp.no - Image Quality",
+    "version": "1.0.0",
+    "description": "Links under each article image at smp.no to open in full quality",
+    "author": "Alexander Volle",
+    "homepage_url": "https://github.com/mentisy/smp.no-image-quality",
+    "content_scripts": [
+        {
+            "matches": ["*://smp.no/*", "*://www.smp.no/*"],
+            "js": ["smp-image.js", "smp-image.js"]
+        }
+    ]
+}
