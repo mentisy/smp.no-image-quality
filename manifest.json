@@ -7,7 +7,7 @@
     "homepage_url": "https://github.com/mentisy/smp.no-image-quality",
     "content_scripts": [
         {
-            "matches": ["*://smp.no/*", "*://www.smp.no/*"],
+            "matches": ["*://smp.no/*", "*://www.smp.no/*", "*://aesby.no/*", "*://www.aesby.no/*"],
             "js": ["smp-image.js", "smp-image.js"]
         }
     ]
