@@ -8,6 +8,7 @@
     "content_scripts": [
         {
             "matches": ["*://smp.no/*", "*://www.smp.no/*", "*://aesby.no/*", "*://www.aesby.no/*"],
+            "exclude_matches": ["*://smp.no/", "*://www.smp.no/", "*://aesby.no/", "*://www.aesby.no/"]
             "js": ["smp-image.js", "smp-image.js"]
         }
     ]
